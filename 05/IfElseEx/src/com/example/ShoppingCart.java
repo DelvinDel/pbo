@@ -19,13 +19,20 @@ public class ShoppingCart {
 
         
         // Declare outOfStock variable and initialize it
-        
+        boolean outOfStock = true;
         
         // Test quantity and modify message if quantity > 1.  
-         
+         if (quantity > 1)
+        message = custName+" wants to purchases "+quantity+" "+itemDesc;
         
         // Test outOfStock and notify user in either case.  
-        
+        if (outOfStock == true)
+            System.out.println("The item is unavaiable");
+
+        if (outOfStock == false){
+            System.out.println(message);
+            System.out.println("The total cost is "+total);}
+
         
         
     }
