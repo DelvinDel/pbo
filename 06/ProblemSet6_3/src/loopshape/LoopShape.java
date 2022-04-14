@@ -10,8 +10,8 @@ public class LoopShape {
         for(int j=0;j<width;j++){
             if (i == 1 || i == height){
                 System.out.print("*"); continue; }
-            if (j == 0 || j == width-1){   
-                System.out.print("*");
+                if (j == 0 || j == width-1){   
+                    System.out.print("*");
                 }    
                 else System.out.print(" ");      
             }
@@ -27,12 +27,12 @@ public class LoopShape {
         for(int j=0;j<i;j++){
             if (i == 1 || i == leg){
                 System.out.print("*"); continue; }
-            if (j == 0 || j == i-1){   
-                System.out.print("*");
+                if (j == 0 || j == i-1){   
+                    System.out.print("*");
                 }    
-            else System.out.print(" ");      
+                else System.out.print(" ");      
             }
-        System.out.println();
+            System.out.println();
         }
       
     }

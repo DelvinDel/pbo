@@ -3,15 +3,15 @@ package prisionertest;
 
 
 public class PrisionerTest {
-
-
+    
     public static void main(String[] args) {
-        prisioner bubba = new prisioner();
-        prisioner twitch = new prisioner();
+        prisioner bubba = new prisioner("Jordan", 1.5, 10);
         
-    bubba.nama = "bubba";
-    twitch.nama = "bubba";
-        System.out.println(bubba.nama == twitch.nama);
+        
+      
+
+        System.out.println(bubba.name);
+
     }
     
 }
