@@ -5,11 +5,7 @@ public class Prisoner {
     public String name;
     public double height;
     public int sentence;
-
-    public void cell(){
-
-    String cell_name;
-    Boolean door;}
+public Cell cell;
 
 
  
@@ -32,6 +28,21 @@ public class Prisoner {
     }
     
 
+public class Cell{
+
+private String name;
+private boolean isOpen;
+
+public void setName(String name){
+    this.name = name;}
+
+public void setIsOpen(boolean isOpen){
+this.isOpen = isOpen;}
+
+
+public void display(boolean b){
+        System.out.println("Name: " +name);
+}
 
 
 }
